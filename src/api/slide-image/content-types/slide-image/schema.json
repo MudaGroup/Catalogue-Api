@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slide_images",
+  "info": {
+    "singularName": "slide-image",
+    "pluralName": "slide-images",
+    "displayName": "SlideImage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
